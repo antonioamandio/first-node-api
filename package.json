@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon --env-file=.env ./src/server.js",
-    "dev": "node --watch --env-file=.env ./src/server.js"
+    "start": "nodemon --env-file=.env ./src/server.js"
   },
   "type": "commonjs",
   "keywords": [],

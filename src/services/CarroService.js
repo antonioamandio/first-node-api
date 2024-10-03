@@ -56,5 +56,19 @@ module.exports = {
                 } 
             });
         });
+    },
+
+    excluir(codigo) {
+        return new Promise((aceite, rejeitado) => {
+            let queryCode = 'DELETE FROM tb_carros WHERE codigo = ?';
+
+            database.query(queryCode, [codigo], (error, results) => {
+                if (error) {
+                    rejeitado(error);
+                } else {
+                    aceite(results);
+                }
+            });
+        });
     }
 };
