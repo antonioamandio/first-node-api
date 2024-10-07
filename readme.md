@@ -63,7 +63,7 @@ Criar a base de dados "db_api_carros" e a tabela "tb_carros", usando o seguinte 
     CREATE DATABASE IF NOT EXISTS db_api_carros;
 
     create table tb_carros (
-	    codigo int primary key auto_increment,
+	codigo int primary key auto_increment,
         modelo varchar(30),
         placa varchar(7)
     );
@@ -146,9 +146,9 @@ Create the database "db_api_carros" and the table "tb_carros", using the followi
     CREATE DATABASE IF NOT EXISTS db_api_cars;
 
     create table tb_carros (
-    code int primary key auto_increment,
-    model varchar(30),
-    varchar(7) board
+	codigo int primary key auto_increment,
+        modelo varchar(30),
+        placa varchar(7)
     );
 ```
 
