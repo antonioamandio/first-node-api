@@ -109,7 +109,7 @@ First we need to install Node JS which we can find at https://nodejs.org/en.
 
 And then MySQL, which we can find at https://www.mysql.com/downloads/
 
-And finally, an API tester, which is an application that allows you to test our API routes, can be downloaded from https://httpie.io/ or if you don't want to, a good option is to go to the application website at https:// httpie.io/app.
+And finally, an API tester, which is an application that allows you to test our API routes, can be downloaded from https://httpie.io/ or if you don't want to, a good option is to go to the application website at https://httpie.io/app.
 
 ## Dependencies 🧑🏾‍💻
 
