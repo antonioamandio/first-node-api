@@ -72,7 +72,6 @@ Criar a base de dados "db_api_carros" e a tabela "tb_carros", usando o seguinte 
 E por por último passo, digitar o seguinte comando no terminal, no directório do projecto:
 
 ```bash
-    npm i
     npm start
 ```
 
